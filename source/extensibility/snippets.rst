@@ -67,8 +67,9 @@ these parts in turn.
           written as ``]]>`` when you trigger the snippet.
 
 ``tabTrigger``
-    Defines the sequence of keys that must be pressed to insert this snippet. After typing
-    this sequence, the snippet will kick in as soon as you hit the :kbd:`Tab` key.
+    Defines the sequence of keys that must be pressed to insert this snippet.
+    After typing this sequence, the snippet will kick in as soon as you hit the
+    :kbd:`Tab` key.
 
     A tab trigger is an implicit key binding.
 
@@ -183,8 +184,8 @@ Placeholders
 -------------
 
 By expanding the field syntax a little bit, you can define default values for
-a field. Placeholders are useful whenever there's a general case for your snippet,
-but you still want to keep it customizable.
+a field. Placeholders are useful whenever there's a general case for your
+snippet, but you still want to keep it customizable.
 
 .. code-block:: perl
 
@@ -257,16 +258,16 @@ With substitutions you can, for instance, underline text effortlessly:
           Original: Hey, Joe!
     Transformation: =========
 
-Another more complex example can translate snail_case to Tile Case With Spaces.
+Another more complex example can translate snail_case to Title Case With Spaces.
 Basically, it combines two separate expressions and replaces into one.
 It also illustrates that replaces may occur before the actual tabstop.
 
 .. code-block:: perl
 
-    Transformation: ${1/^(\w)|(?:_(\w))/(?1\u$1:)(?2 \u$2:)/g}
           Original: ${1:text_in_snail_case}
+    Transformation: ${1/^(\w)|(?:_(\w))/(?1\u$1:)(?2 \u$2:)/g}
 
     # Output:
 
-    Transformation: Text In Snail Case
           Original: text_in_snail_case
+    Transformation: Text In Snail Case
