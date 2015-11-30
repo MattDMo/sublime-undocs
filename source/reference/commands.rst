@@ -120,11 +120,19 @@ Commands
 
 **open_file**
 	Opens the specified file.
+	Will dynamically open resource files
+	from :ref:`sublime-package archives <.sublime-package>` as read-only
+	if the specified *override file* does not exist.
 
 	- **file** [String]: Absolute or relative :ref:`path <cmd-about-paths>`
 	  to the file to be opened. Relative paths will originate from the recently
+
+	  Expands snippet-like variables, such as ``$platform`` and ``$packages``.
+
 	- **contents** [String]: This string will be written to the new buffer if
 	  the file does not exist. accessed directory (e.g. the directory of the currently opened file).
+
+	  .. XXX more variables?
 
 **open_dir**
 	Opens the specified directory with the default file manager.
@@ -189,7 +197,7 @@ Commands
 **refresh_folder_list**
 	Reloads all folders in the current project and updates the side bar.
 
-**toggle_sidebar**
+**toggle_side_bar**
 	Shows or hides the sidebar.
 
 **toggle_show_open_files**

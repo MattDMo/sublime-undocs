@@ -10,6 +10,7 @@ Build Systems -- Configuration
 
    See `this forum thread <http://www.sublimetext.com/forum/viewtopic.php?f=2&t=17471&sid=81fd17a6c886e151a3f69c0eaa87272d>`_ for details.
 
+
 Overview
 ========
 
@@ -251,6 +252,14 @@ in ``.sublime-build`` files:
 ``$project_base_name``  The name-only portion of the current project file.
 ``$packages``           The full path to the *Packages* folder.
 ======================  ===========================================================
+
+
+.. note::
+
+    Expansion is currently applied only
+    to the following keys in the :file:`.sublime-build` file:
+    ``cmd``, ``shell_cmd``, and ``working_dir``.
+
 
 Placeholders for Variables
 **************************

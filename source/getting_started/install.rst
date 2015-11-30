@@ -124,14 +124,15 @@ Ubuntu
 ::
 
     cd ~
-    wget http://c758482.r82.cf2.rackcdn.com/sublime-text_build-3047_i386.deb
+    wget http://c758482.r82.cf2.rackcdn.com/sublime-text_build-3083_i386.deb
 
 **For x64**
 
 ::
 
     cd ~
-    wget http://c758482.r82.cf2.rackcdn.com/sublime-text_build-3047_amd64.deb
+    wget http://c758482.r82.cf2.rackcdn.com/sublime-text_build-3083_amd64.deb
+
 
 Other Linux Distributions
 *************************
@@ -141,16 +142,16 @@ Other Linux Distributions
 ::
 
     cd ~
-    wget http://c758482.r82.cf2.rackcdn.com/sublime_text_3_build_3047_x32.tar.bz2
-    tar vxjf sublime_text_3_build_3047_x32.tar.bz2
+    wget http://c758482.r82.cf2.rackcdn.com/sublime_text_3_build_3083_x32.tar.bz2
+    tar vxjf sublime_text_3_build_3083_x32.tar.bz2
 
 **For x64**
 
 ::
 
     cd ~
-    wget http://c758482.r82.cf2.rackcdn.com/sublime_text_3_build_3047_x64.tar.bz2
-    tar vxjf sublime_text_3_build_3047_x64.tar.bz2
+    wget http://c758482.r82.cf2.rackcdn.com/sublime_text_3_build_3083_x64.tar.bz2
+    tar vxjf sublime_text_3_build_3083_x64.tar.bz2
 
 Now we should move the uncompressed files
 to an appropriate location.
@@ -183,7 +184,7 @@ Then copy the following into it.
 ::
 
     [Desktop Entry]
-    Version=3.0
+    Version=1.0
     Name=Sublime Text 3
     # Only KDE 4 seems to use GenericName, so we reuse the KDE strings.
     # From Ubuntu's language-pack-kde-XX-base packages, version 9.04-20090413.
@@ -238,9 +239,9 @@ not available for Sublime Text 3.
 Getting Sublime Text 3
 **********************
 
-Sublime Text 3 has two release *channels*:
+Sublime Text 3 currently has two release *channels*:
 
-* `Beta`_ (default)
+* `Beta`_ (default, recommended)
 * `Dev`_
 
 .. _Beta: http://www.sublimetext.com/3
@@ -256,7 +257,7 @@ The *dev* channel is unstable:
 dev builds may contain bugs
 and not work reliably.
 Dev builds are updated more often
-than stable releases.
+than beta releases.
 
 **Dev builds are only available
 to registered users.**
@@ -265,7 +266,8 @@ to registered users.**
 Getting Sublime Text 2
 **********************
 
-If you have chosen to use Sublime Text 2,
+We recommend Sublime Text 3,
+but if you have chosen to use Sublime Text 2
 you can download it `here`_.
 
 .. _here: http://www.sublimetext.com/2
