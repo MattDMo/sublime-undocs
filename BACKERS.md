@@ -14,7 +14,7 @@ to make a special mention of Sublime Hq for their generous donation.
 
 - [wbond](http://wbond.net)
 - [zchrykng](https://github.com/zchrykng)
-- [chitowntiger](xxx)
+- [chitowntiger]
 - [wesbos](http://wesbos.com)
 - [kblomqvist](http://kblomqvist.github.io/)
 - [lmno](http://toomanyideas.net/)
