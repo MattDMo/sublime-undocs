@@ -16,15 +16,16 @@ Text gives the matching text its corresponding *scope name*.
 
 .. note::
 
-   As of Sublime Text Build 3084,
+   As of Sublime Text Build 3084 (in the Dev_ channel)
+   and Sublime Text Build 3103 (in the `Public Beta`_ channel)
    a new syntax definition format has been added,
    with the ``.sublime-syntax`` extension.
-   It is currently only available in the Dev_ channel.
 
    Documentation is available here:
    http://www.sublimetext.com/docs/3/syntax.html
 
    .. _Dev: http://www.sublimetext.com/3dev
+   .. _Public Beta: http://www.sublimetext.com/3
 
 
 Prerequisites
